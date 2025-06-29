@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: rgb(180, 102, 165);
     color: aqua;
@@ -32,3 +33,13 @@ button{
                         'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
                         'Open Sans', 'Helvetica Neue', sans-serif;
 }
+=======
+.dark {
+  background-color: black;
+  color: white;
+}
+.light {
+  background-color: white;
+  color: black;
+}
+>>>>>>> 6f98ff71f7a4b9dd327d1469a4508bf9562423c1

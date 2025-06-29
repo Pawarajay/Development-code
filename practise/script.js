@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // console.log("Ajay");
 // // console.log(window);
 // window.console.log("hello");
@@ -60,3 +61,21 @@ div.addEventListener('click',function(e){
 
     container.style.color = "black" });
 
+=======
+let modeBtn = document.querySelector("#mode");
+let body = document.querySelector("body");
+let currMode = "light";
+
+modeBtn.addEventListener("click", () => {
+    if (currMode === "light") {
+        currMode = "dark";
+        body.classList.add("dark");
+        body.classList.remove("light");
+    } else {
+        currMode = "light";
+        body.classList.add("light");
+        body.classList.remove("dark");
+    }
+    console.log(currMode);
+});
+>>>>>>> 6f98ff71f7a4b9dd327d1469a4508bf9562423c1
